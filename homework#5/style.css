@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
 .menu {
-    float: right;
-    background-color: rgba(255, 0, 0, 0.336);
+    float: inline-start;
+    background rgba(255, 0, 0, 0.336);
+    word-spacing: 5px;
+    margin-left: -150px;
+    font-family: ;
+    font-family: 'Arsenal', sans-serif;
 }
 .logo {
     position: static;
@@ -8,6 +13,15 @@
 
 .paragraph {
     text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    color: DimGray;
+    font-weight: bold;
+}
+
+#uslugi {
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+
 }
 
 .container {
@@ -26,20 +40,37 @@
 .desc {
     padding: 15px;
     text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+    color: dimgray;
 }
 
 #footer {
     background-color: rgba(214, 214, 214, 0.856);
+    font-family: 'Arsenal', sans-serif;
 }
-
 
 /* ABOUT US */
 
 #naslov {
     text-align: center;
+    font-family: 'Arsenal', sans-serif;
 }
 
 .aboutus {
     text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    color: dimgray;
+}
 
+.aboutus > span {
+    color: red;
+    font-weight: bold;
+}
+
+/* VIDEOS */
+
+.videos {
+    display: flex;
+    justify-content: center;
 }
