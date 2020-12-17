@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+.first-row {
+    width: 550px;
+    height: 550px;
+    background-color: aqua;
+    display: inline-block; 
+    position: relative;
+    left: 475px;
+
+}
+
+.one {
+    width: 150px;
+    height: 60px;
+    background-color: deepskyblue;
+    position: relative;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    display: inline-block;
+}
+
+.two {
+    width: 200px;
+    height: 60px;
+    background-color: salmon;
+    position: relative;
+    right: 4px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    display: inline-block;
+    
+}
+
+.three {
+    width: 160px;
+    height: 60px;
+    background-color: sandybrown;
+    position: relative;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    display: inline-block;
+    right: 8px;
+}
+
+.four {
+    width: 70px;
+    height: 130px;
+    background-color: #ffffcc;
+    display: inline-block;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    position: relative;
+    bottom: 154px;
+}
+
+.five {
+    width: 280px;
+    height: 280px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    right: 4px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}   
+
+.six {
+    width: 160px;
+    height: 130px;
+    background-color: sandybrown;
+    position: relative;
+    display: inline-block;
+    right: 8px;
+    bottom: 154px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.seven {
+    width: 70px;
+    height: 240px;
+    background-color: deepskyblue;
+    display: inline-block;
+    position: relative;
+    bottom: 158px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.eight {
+    width: 140px;
+    height: 140px;
+    background-color: darkred;
+    display: inline-block;
+    position: relative;
+    bottom: 108px;
+    right: 4px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+
+}
+
+.nine {
+    width: 140px;
+    height: 90px;
+    background-color: deepskyblue;
+    display: inline-block;
+    position: relative;
+    right: 8px;
+    bottom: 158px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.ten {
+    width: 80px;
+    height: 150px;
+    background-color: #fafafa;
+    display: inline-block;
+    position: relative;
+    right: 12px;
+    bottom: 248px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+
+}
+
+.eleven {
+    width: 80px;
+    height: 150px;
+    background-color: #fafafa;
+    display: inline-block;
+    position: relative;
+    right: 16px;
+    bottom: 248px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.twelve {
+    width: 160px;
+    height: 90px;
+    background-color: blueviolet;
+    position: relative;
+    display: inline-block;
+    left: 350px;
+    bottom: 252px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.thirteen {
+    width: 70px;
+    height: 120px;
+    background-color: sandybrown;
+    position: relative;
+    bottom: 256px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.fourteen {
+    width: 140px;
+    height: 70px;
+    background-color: deepskyblue;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    bottom: 326px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.fifteen {
+    width: 140px;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    left: 210px;
+    bottom: 450px;
+    border-right: 10px solid black;
+    border-bottom: 40px solid black;
+}
+
+.sixteen {
+    width: 300px;
+    height: 40px;
+    background-color: blueviolet;
+    position: relative;
+    display: inline-block;
+    left: 210px;
+    bottom: 540px;
+    border-right: 10px solid black;
+}
+
+.seventeen {
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    display: inline-block;
+    left: 46px;
+    bottom: 580px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.eighteen {
+    width: 40px;
+    height: 130px;
+    display: inline-block;
+    position: relative;
+    background-color: red;
+    left: 42px;
+    bottom: 540px;
+    border-top: 10px solid black;
+    
+}
