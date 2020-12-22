@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: green;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    margin: 0;
+}
+span {
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    bottom: 5px;
+} 
+
+.features {
+    color: white;
+    border: 5px solid greenyellow;
+    background-color: greenyellow;
+}
+
+.pricing {
+    color: white;
+    border: 5px solid greenyellow;
+    background-color: greenyellow;
+}
+
+.support {
+    color: white;
+    border: 5px solid greenyellow;
+    background-color: greenyellow;
+}
+
+.login {
+    color: black;
+    border: 5px solid white;
+    background-color: white;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+.div-image {
+    display: inline-block;
+}
+
+.image {
+    display: inline-block;
+    width: 1503px;
+    height: 355px;
+}
+
+.title-image {
+    display: inline-block;
+    position: relative;
+    bottom: 220px;
+    left: 700px;
+    margin: 0;
+}
+
+.get-started {
+    display: inline-block;
+    position: relative;
+    bottom: 180px;
+    left: 1015px;
+    color: white;
+    background-color: greenyellow;
+    border: 5px solid greenyellow;
+    width: 50%;
+}
+
+
+
+.blog {
+    display: flex;
+    max-width: 1200px;
+    padding: 10px 20px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    position: relative;
+    left: 150px;
+    
+}
+
+.blog-post {
+    margin: 20px 10px;
+    padding: 10px;
+    border: 3px solid white;
+    flex: 1 1 250px;
+    background-color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.footerr{
+    display: block;
+    background-color: #9d9fa1;
+}
+
+.footer {
+    color: gray;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/* Large Desktop */
+
+@media screen and (min-width: 1281px) {
+
+    header {
+        width: 100%;
+    }
+
+    span {
+        width: 20%
+    }
+
+    .get-started {
+        padding: 0;
+        position: relative;
+        bottom: 315px;
+        width: 5%;
+        left: 65%;
+    }
+
+    .title-image {
+        position: relative;
+        bottom: 350px;
+        left: 50%;
+    }
+
+   .blog {
+       margin-left: 200px;
+   }
+   
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-div {
+        max-width: 768px;
+    }
+}
+
+/* Laptop */
+
+@media screen and (max-width: 1280px) {
+
+    
+
+
+
+    
