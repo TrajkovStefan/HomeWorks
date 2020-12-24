@@ -33,6 +33,26 @@ console.log(totalpriceuser);
 console.log("Total price for 30 phones with tax rate is: ");
 console.log(totalprice);
 
+//BONUS
+
+console.log("BONUS");
+
+var Phoneprice = prompt ("Enter the price of the phone");
+var totalPrice = null;
+var totalPriceuser = null;
+var tax = prompt ("Enter the tax rate");
+
+totalPriceuser = Phoneprice/100*tax;
+totalPriceuser+= Phoneprice;
+
+totalPrice = totalPriceuser*30;
+
+console.log("Total price for one phone with tax rate is: ");
+console.log(totalPriceuser);
+console.log("Total price for 30 phones with tax rate is: ");
+console.log(totalPrice);
+
+
 // EXERCISE 3
 
 console.log("EXERCISE 3");
