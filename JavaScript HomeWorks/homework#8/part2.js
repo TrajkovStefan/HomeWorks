@@ -1,22 +1,22 @@
 $(document).ready(function(){
+    input1 = $("input:first");
+    input2 = $("input:last");
 
-    function changeColor(){
-    input1 = $("input:first").val();
-    input2 = $("input:last").val();
-    
-    if(input1 === ""){
+    function changeColor(valueNumber,valueColor){
+    if(valueNumber === ""){
         alert('Please enter your text and pick your favorite color');
     }
     
     else{
-        
         button.after(`<h1></h1>`)
-        $("h1").text(`${input1}`).css("color", `${input2}`);  
+        $("h1:first").text(`${valueNumber}`).css("color", `${valueColor}`);  
     }
 
     }
 
     let button = $("button"); 
-    button.click(changeColor);
+    button.click(function(){
+        changeColor(input1.val(),input2.val());
+    });
 });
 
