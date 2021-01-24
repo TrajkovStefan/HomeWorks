@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
     function printName(){
-        $("h1").text("");
         let input = $("input").val();
         let firstName = input;
-        button.after(`<h1>Hello there ${firstName}</h1>`);
+        button.after(`<h1></h1>`);
+        $("h1:first").text(`Hello there ${firstName}`)
     }
     
     let button = $("button");
