@@ -10,14 +10,10 @@ function check1(){
     }
 }
 function check2(number){
-    var count = 0;
-    if (number >= 1) ++count;
-  
-    while (number / 10 >= 1) {
-      number /= 10;
+    var count = 1;
+    while ((number /= 10 ) >= 1) {
       ++count;
     }
-  
     return count;
   }
 

@@ -3,20 +3,23 @@ let secondInput = $("input:last");
 let myButton = $("button");
 
 myButton.click(function(){
+    $("input").html("");
+    $("#area").html("");
     if(firstInput.val() && secondInput.val() === ""){
         alert("Enter the sides of rectangle");
     }
     else{
         let perimeter = 0;
         perimeter = 2*(firstInput.val() + secondInput.val()); 
-        myButton.after(`<p>${perimeter}</p>`)
+        myButton.after(`<p id="perimetar">${perimeter}</p>`);
     }
-    $("p").mouseover(function(){
-        $("p").html("");
+    $("#perimetar").mouseover(function(){
+        $("#perimetar").html("");
         area = 0;
         area = firstInput.val() * secondInput.val();
-        $("p").after(`<p>${area}</p>`);
-        $("p:last").css("color", "red");
-        $("p:last").css("font-size", "50px");
+        $("#perimetar").after(`<p id="area">${area}</p>`);
+        $("#area").css("color", "red");
+        $("#area").css("font-size", "50px");
         })
 })
+
