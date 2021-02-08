@@ -1,0 +1,15 @@
+table,
+tr,
+td,
+th{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+div{
+  position: relative;
+  left: 45%;
+  padding-top: 1%;
+  
+}
