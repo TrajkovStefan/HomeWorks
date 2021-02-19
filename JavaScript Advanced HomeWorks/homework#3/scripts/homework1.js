@@ -54,7 +54,7 @@ function copyArray(array) {
 
 console.log("===WITH COPY ARRAY===");
 let productsCopy = copyArray(arrayOfProducts);
-productsCopy.sort((p1, p2) => p2.price - p1.price);
+productsCopy.sort((p1, p2) => p1.price - p2.price);
 productsCopy.forEach(products => console.log(products.price));
 
 
