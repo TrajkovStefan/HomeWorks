@@ -1,0 +1,12 @@
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\bin\Debug\netcoreapp3.1\SwapNumbers.exe
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\bin\Debug\netcoreapp3.1\SwapNumbers.deps.json
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\bin\Debug\netcoreapp3.1\SwapNumbers.runtimeconfig.json
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\bin\Debug\netcoreapp3.1\SwapNumbers.runtimeconfig.dev.json
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\bin\Debug\netcoreapp3.1\SwapNumbers.dll
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\bin\Debug\netcoreapp3.1\SwapNumbers.pdb
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\obj\Debug\netcoreapp3.1\SwapNumbers.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\obj\Debug\netcoreapp3.1\SwapNumbers.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\obj\Debug\netcoreapp3.1\SwapNumbers.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\obj\Debug\netcoreapp3.1\SwapNumbers.dll
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\obj\Debug\netcoreapp3.1\SwapNumbers.pdb
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\SwapNumbers\obj\Debug\netcoreapp3.1\SwapNumbers.genruntimeconfig.cache

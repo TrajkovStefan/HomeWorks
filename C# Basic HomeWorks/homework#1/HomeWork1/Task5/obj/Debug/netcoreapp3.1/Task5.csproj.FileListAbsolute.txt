@@ -1,0 +1,12 @@
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\bin\Debug\netcoreapp3.1\Task5.exe
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\bin\Debug\netcoreapp3.1\Task5.deps.json
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\bin\Debug\netcoreapp3.1\Task5.runtimeconfig.json
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\bin\Debug\netcoreapp3.1\Task5.runtimeconfig.dev.json
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\bin\Debug\netcoreapp3.1\Task5.dll
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\bin\Debug\netcoreapp3.1\Task5.pdb
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\obj\Debug\netcoreapp3.1\Task5.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\obj\Debug\netcoreapp3.1\Task5.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\obj\Debug\netcoreapp3.1\Task5.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\obj\Debug\netcoreapp3.1\Task5.dll
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\obj\Debug\netcoreapp3.1\Task5.pdb
+D:\Seavus\HomeWorks\C# Basic HomeWorks\homework#1\HomeWork1\Task5\obj\Debug\netcoreapp3.1\Task5.genruntimeconfig.cache
