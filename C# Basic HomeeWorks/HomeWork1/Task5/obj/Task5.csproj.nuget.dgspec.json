@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj": {}
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj": {}
   },
   "projects": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj",
         "projectName": "Task5",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\Task5.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\Task5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",

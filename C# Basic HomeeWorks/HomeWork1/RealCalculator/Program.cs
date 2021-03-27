@@ -35,10 +35,14 @@ namespace RealCalculator
                     result = parsingFirstInput * parsingSecondInput;
                     Console.WriteLine("The result is " + result);
                 }
-                else
+                else if (operation == "/")
                 {
                     result = parsingFirstInput / parsingSecondInput;
                     Console.WriteLine("The result is " + result);
+                }
+                else
+                {
+                    Console.WriteLine("You must enter an operation to add(+), subtract(-), multiply(*) or divide(/).");
                 }
             }
             else

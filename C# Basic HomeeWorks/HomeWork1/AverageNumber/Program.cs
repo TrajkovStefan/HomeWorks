@@ -32,9 +32,17 @@ namespace AverageNumber
             int sum;
             int resultOfAverage;
 
-            sum = parsingFirstNumber + parsingSecondNumber + parsingThirdNumber + parsingFourthNumber;
-            resultOfAverage = sum / 4;
-            Console.WriteLine($"The average of {parsingFirstNumber}, {parsingSecondNumber}, {parsingThirdNumber}, {parsingFourthNumber} is: {resultOfAverage}");
+            if (fNumber && secNumber && thrNumber && quarterNumber)
+            {
+                sum = parsingFirstNumber + parsingSecondNumber + parsingThirdNumber + parsingFourthNumber;
+                resultOfAverage = sum / 4;
+                Console.WriteLine($"The average of {parsingFirstNumber}, {parsingSecondNumber}, {parsingThirdNumber}, {parsingFourthNumber} is: {resultOfAverage}");
+            }
+            else
+            {
+                Console.WriteLine("You must enter numbers");
+            }
+
             Console.ReadLine();
         }
     }

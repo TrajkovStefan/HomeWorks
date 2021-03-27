@@ -37,8 +37,8 @@ namespace FindStatistics
                 }
                 else
                 {
-                    result = firstNumber / secondNumber;
-                    Console.WriteLine($"Both numbers are odd. The operation and result are {firstNumber} / {secondNumber} = {result}");
+                    result = firstNumber * secondNumber;
+                    Console.WriteLine($"Both numbers are odd. The operation and result are {firstNumber} * {secondNumber} = {result}");
                 }
             }
             else

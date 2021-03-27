@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj": {}
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj": {}
   },
   "projects": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj",
         "projectName": "FindStatistics",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\FindStatistics.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\FindStatistics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",

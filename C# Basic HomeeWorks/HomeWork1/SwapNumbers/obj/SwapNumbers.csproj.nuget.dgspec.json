@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj": {}
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj": {}
   },
   "projects": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj",
         "projectName": "SwapNumbers",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\SwapNumbers.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\SwapNumbers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",

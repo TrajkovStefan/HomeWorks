@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj": {}
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj": {}
   },
   "projects": {
-    "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj",
         "projectName": "AverageNumber",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\AverageNumber.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork1\\AverageNumber\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
