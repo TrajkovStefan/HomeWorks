@@ -1,0 +1,13 @@
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\bin\Debug\netcoreapp3.1\PyramidWithNumbers.exe
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\bin\Debug\netcoreapp3.1\PyramidWithNumbers.deps.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\bin\Debug\netcoreapp3.1\PyramidWithNumbers.runtimeconfig.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\bin\Debug\netcoreapp3.1\PyramidWithNumbers.runtimeconfig.dev.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\bin\Debug\netcoreapp3.1\PyramidWithNumbers.dll
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\bin\Debug\netcoreapp3.1\PyramidWithNumbers.pdb
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.AssemblyInfoInputs.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.AssemblyInfo.cs
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.dll
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.pdb
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.genruntimeconfig.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\PyramidWithNumbers\obj\Debug\netcoreapp3.1\PyramidWithNumbers.csprojAssemblyReference.cache

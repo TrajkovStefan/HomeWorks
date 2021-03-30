@@ -1,0 +1,13 @@
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\bin\Debug\netcoreapp3.1\SumOfEven.exe
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\bin\Debug\netcoreapp3.1\SumOfEven.deps.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\bin\Debug\netcoreapp3.1\SumOfEven.runtimeconfig.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\bin\Debug\netcoreapp3.1\SumOfEven.runtimeconfig.dev.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\bin\Debug\netcoreapp3.1\SumOfEven.dll
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\bin\Debug\netcoreapp3.1\SumOfEven.pdb
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.AssemblyInfoInputs.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.AssemblyInfo.cs
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.dll
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.pdb
+C:\Users\Stefan Trajkov\source\repos\Homework2\SumOfEven\obj\Debug\netcoreapp3.1\SumOfEven.genruntimeconfig.cache

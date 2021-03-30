@@ -1,0 +1,13 @@
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\bin\Debug\netcoreapp3.1\MinAndMax.exe
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\bin\Debug\netcoreapp3.1\MinAndMax.deps.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\bin\Debug\netcoreapp3.1\MinAndMax.runtimeconfig.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\bin\Debug\netcoreapp3.1\MinAndMax.runtimeconfig.dev.json
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\bin\Debug\netcoreapp3.1\MinAndMax.dll
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\bin\Debug\netcoreapp3.1\MinAndMax.pdb
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.AssemblyInfoInputs.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.AssemblyInfo.cs
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.dll
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.pdb
+C:\Users\Stefan Trajkov\source\repos\Homework2\MinAndMax\obj\Debug\netcoreapp3.1\MinAndMax.genruntimeconfig.cache
