@@ -1,0 +1,13 @@
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\bin\Debug\netcoreapp3.1\Task4.exe
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\bin\Debug\netcoreapp3.1\Task4.deps.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\bin\Debug\netcoreapp3.1\Task4.runtimeconfig.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\bin\Debug\netcoreapp3.1\Task4.runtimeconfig.dev.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\bin\Debug\netcoreapp3.1\Task4.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\bin\Debug\netcoreapp3.1\Task4.pdb
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.pdb
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task4\obj\Debug\netcoreapp3.1\Task4.genruntimeconfig.cache
