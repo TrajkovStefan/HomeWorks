@@ -4,21 +4,52 @@ namespace Task5
 {
     class Program
     {
-        static void AgeCalculator(string myBirthday)
+        static void AgeCalculator(DateTime myBirthday)
         {
-            DateTime convertedMyBirthday = new DateTime(int.Parse(myBirthday), 1, 1);
             DateTime currentDate = DateTime.Today;
-            int myAge = currentDate.Year - convertedMyBirthday.Year;
-            Console.WriteLine($"I have {myAge} old");
+            int year = currentDate.Year - myBirthday.Year;
+            int age = 0;
+            if (myBirthday.Month > currentDate.Month)
+            {
+                age = year - 1;
+                Console.WriteLine($"You have {age} years old");
+            }
+            else if (myBirthday.Month <= currentDate.Month)
+            {
+                if (myBirthday.Month == currentDate.Month && myBirthday.Day == currentDate.Day)
+                {
+                    age = year;
+                    Console.WriteLine("Happy Birthday");
+                }
+                else if (myBirthday.Month == currentDate.Month && myBirthday.Day > currentDate.Day)
+                {
+                    age = year - 1;
+                }
+                else if (myBirthday.Month == currentDate.Month && myBirthday.Day < currentDate.Day)
+                {
+                    age = year;
+                }
+                else if (myBirthday.Month < currentDate.Month)
+                {
+                    age = year;
+                }
+                Console.WriteLine($"You have {age} years old");
 
-
+            }
 
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your birthday year");
-            string myInput = Console.ReadLine();
-            AgeCalculator(myInput);
+            Console.WriteLine("Enter your birthday year as (dd/mm/yyyy)");
+            bool success = DateTime.TryParse(Console.ReadLine(), out DateTime dateBirday);
+            if (success)
+            {
+                AgeCalculator(dateBirday);
+            }
+            else
+            {
+                Console.WriteLine("Invalid birth date");
+            }
 
             Console.ReadLine();
         }

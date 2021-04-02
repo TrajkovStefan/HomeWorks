@@ -11,3 +11,16 @@ D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netc
 D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.pdb
 D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.genruntimeconfig.cache
 D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\bin\Debug\netcoreapp3.1\Task5.exe
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\bin\Debug\netcoreapp3.1\Task5.deps.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\bin\Debug\netcoreapp3.1\Task5.runtimeconfig.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\bin\Debug\netcoreapp3.1\Task5.runtimeconfig.dev.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\bin\Debug\netcoreapp3.1\Task5.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\bin\Debug\netcoreapp3.1\Task5.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.AssemblyInfoInputs.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.AssemblyInfo.cs
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Basic HomeeWorks\HomeWork3\HomeWork3\Task5\obj\Debug\netcoreapp3.1\Task5.genruntimeconfig.cache

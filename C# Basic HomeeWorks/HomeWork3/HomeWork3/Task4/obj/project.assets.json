@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork3\\HomeWork3\\Task4\\Task4.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork3\\HomeWork3\\Task4\\Task4.csproj",
       "projectName": "Task4",
-      "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork3\\HomeWork3\\Task4\\Task4.csproj",
+      "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork3\\HomeWork3\\Task4\\Task4.csproj",
       "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-      "outputPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork3\\HomeWork3\\Task4\\obj\\",
+      "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork3\\HomeWork3\\Task4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
