@@ -8,6 +8,7 @@ namespace Domain.Enums
     {
         Sales = 1,
         Manager,
+        Contractor,
         Other
     }
 }

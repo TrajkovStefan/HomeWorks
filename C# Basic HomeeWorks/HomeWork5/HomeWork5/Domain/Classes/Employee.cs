@@ -12,11 +12,10 @@ namespace Domain.Classes
         protected double Salary { get; set; }
         public RoleEnum Role { get; set; }
 
-        public Employee(string firstName, string lastName, RoleEnum role)
+        public Employee(string firstName, string lastName)
         {
             FirstName = firstName;
             LastName = lastName;
-            Role = role;
         }
         public Employee()
         {

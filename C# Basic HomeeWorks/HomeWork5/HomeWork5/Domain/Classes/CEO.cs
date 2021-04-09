@@ -28,7 +28,7 @@ namespace Domain.Classes
         {
             foreach (Employee employee in employees)
             {
-                Console.WriteLine($"{employee.FirstName} {employee.LastName}");
+                Console.WriteLine($"{employee.FirstName} {employee.LastName} {employee.Role}");
             }
         }
 

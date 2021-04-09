@@ -13,24 +13,28 @@ namespace App
 
         static void Main(string[] args)
         {
-            Employee[] employees = new Employee[]
+            SalesPerson[] salesPerson = new SalesPerson[]
             {
-                new Employee("Marko", "Markovski", RoleEnum.Manager),
-                new Employee("Stefan", "Stefanovski", RoleEnum.Sales),
-                new Employee("Petar", "Petrovski", RoleEnum.Manager)
+                new SalesPerson("Stefan", "Stefanovski")
+            };
+
+            Managers[] managers = new Managers[]
+            {
+                new Managers("Marko", "Markovski", 4000),
+                new Managers("Petar", "Petrovski", 4500)
             };
 
             Contractor[] contractors = new Contractor[]
             {
-                new Contractor("Petko", "Petkovski",8, 20),
-                new Contractor("Robi", "Spasevski", 10, 18)
+                new Contractor("Petko", "Petkovski",8, 20, managers[0]),
+                new Contractor("Robi", "Spasevski", 10, 18, managers[1])
             };
 
             Employee[] company = new Employee[]
             {
-                employees[0],
-                employees[1],
-                employees[2],
+                managers[0],
+                managers[1],
+                salesPerson[0],
                 contractors[0],
                 contractors[1]
             };
@@ -39,8 +43,6 @@ namespace App
             {
                 new CEO(company, 15)
             };
-
-            
             
             foreach(CEO details in ceoName)
             {

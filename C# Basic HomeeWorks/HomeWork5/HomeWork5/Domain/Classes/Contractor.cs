@@ -9,14 +9,16 @@ namespace Domain.Classes
     {
         public double WorkHours { get; set; }
         public int PayPerHour { get; set; }
-        public RoleEnum Responsible{ get; set; }
+        public Employee Responsible{ get; set; }
 
-        public Contractor(string firstName, string lastName, double workHours, int payPerHour)
+        public Contractor(string firstName, string lastName, double workHours, int payPerHour, Employee responsible) : base(firstName, lastName)
         {
             FirstName = firstName;
             LastName = lastName;
             WorkHours = workHours;
             PayPerHour = payPerHour;
+            Responsible = responsible;
+            Role = RoleEnum.Contractor;
         }
         public override double GetSalary()
         {
