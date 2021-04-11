@@ -9,15 +9,14 @@ namespace Domain.Classes
     {
         private double _bonus { get; set; }
 
-        public Managers(string firstName, string lastName, double bonus) :base(firstName, lastName)
+        public Managers(string firstName, string lastName) :base(firstName, lastName)
         {
-            _bonus = bonus;
             Role = RoleEnum.Manager;
         }
 
-        public double AddBonus()
+        public double AddBonus(double amountBonus)
         {
-            return _bonus;
+            return _bonus += amountBonus;
         }
 
         public override double GetSalary()

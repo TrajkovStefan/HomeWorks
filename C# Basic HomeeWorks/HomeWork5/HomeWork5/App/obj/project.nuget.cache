@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFuYhtgQpfFe/+Iu4d6a5OKW5apx24HKzGI7/o7fANxsxP+XOWGOznbE05+E018vBzPtAV5JxaimMfbvghlG/Q==",
+  "dgSpecHash": "WPocguke0khUWlRXd+ZosoqQtZmC9P++4OxZjTVveTDNwhSw8BWAu7bpwyTW4qgaOXG6552NuCEj3hMz5dm0oA==",
   "success": true,
-  "projectFilePath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\App.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\ippdotnetsdkforquickbooksapiv3\\14.6.0\\ippdotnetsdkforquickbooksapiv3.14.6.0.nupkg.sha512",
     "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

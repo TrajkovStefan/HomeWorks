@@ -6243,11 +6243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\App.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\App.csproj",
+      "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\App.csproj",
       "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-      "outputPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\obj\\",
+      "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6264,8 +6264,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Seavus\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\Domain\\Domain.csproj"
+            "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Basic HomeeWorks\\HomeWork5\\HomeWork5\\Domain\\Domain.csproj"
             }
           }
         }

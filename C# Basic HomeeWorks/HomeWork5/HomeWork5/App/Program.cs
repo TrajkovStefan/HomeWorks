@@ -20,8 +20,8 @@ namespace App
 
             Managers[] managers = new Managers[]
             {
-                new Managers("Marko", "Markovski", 4000),
-                new Managers("Petar", "Petrovski", 4500)
+                new Managers("Marko", "Markovski"),
+                new Managers("Petar", "Petrovski")
             };
 
             Contractor[] contractors = new Contractor[]
