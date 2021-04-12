@@ -21,7 +21,7 @@ namespace Domain.Classes
 
         public override double GetSalary()
         {
-            return Salary += _bonus;
+            return Salary + _bonus;
         }
     }
 }
