@@ -1,0 +1,16 @@
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Task3.exe
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Task3.deps.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Task3.runtimeconfig.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Task3.runtimeconfig.dev.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Task3.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Task3.pdb
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CopyComplete
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.pdb
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork6\HomeWork6\Task3\obj\Debug\netcoreapp3.1\Task3.genruntimeconfig.cache
