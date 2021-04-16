@@ -1,0 +1,9 @@
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\Seavus\HomeWorks\C# Basic HomeeWorks\HomeWork7\HomeWork7\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
