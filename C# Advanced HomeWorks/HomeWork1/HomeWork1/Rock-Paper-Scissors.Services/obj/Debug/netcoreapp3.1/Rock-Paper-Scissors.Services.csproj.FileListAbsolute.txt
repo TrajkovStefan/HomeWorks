@@ -1,0 +1,12 @@
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\bin\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.deps.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\bin\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\bin\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\bin\Debug\netcoreapp3.1\Rock-Paper-Scissors.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\bin\Debug\netcoreapp3.1\Rock-Paper-Scissors.Domain.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.csproj.CopyComplete
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\Rock-Paper-Scissors.Services\obj\Debug\netcoreapp3.1\Rock-Paper-Scissors.Services.pdb

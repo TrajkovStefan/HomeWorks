@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rock-Paper-Scissors.App/1.0.0": {
+        "dependencies": {
+          "Rock-Paper-Scissors.Services": "1.0.0"
+        },
+        "runtime": {
+          "Rock-Paper-Scissors.App.dll": {}
+        }
+      },
+      "Rock-Paper-Scissors.Domain/1.0.0": {
+        "runtime": {
+          "Rock-Paper-Scissors.Domain.dll": {}
+        }
+      },
+      "Rock-Paper-Scissors.Services/1.0.0": {
+        "dependencies": {
+          "Rock-Paper-Scissors.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Rock-Paper-Scissors.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rock-Paper-Scissors.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rock-Paper-Scissors.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rock-Paper-Scissors.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

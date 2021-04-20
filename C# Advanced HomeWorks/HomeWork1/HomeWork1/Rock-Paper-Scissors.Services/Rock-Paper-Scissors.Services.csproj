@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Rock_Paper_Scissors.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rock-Paper-Scissors.Domain\Rock-Paper-Scissors.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
