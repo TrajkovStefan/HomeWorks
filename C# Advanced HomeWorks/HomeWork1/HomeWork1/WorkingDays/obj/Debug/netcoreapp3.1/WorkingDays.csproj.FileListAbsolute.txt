@@ -11,3 +11,16 @@ D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\De
 D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.pdb
 D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.genruntimeconfig.cache
 D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\bin\Debug\netcoreapp3.1\WorkingDays.exe
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\bin\Debug\netcoreapp3.1\WorkingDays.deps.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\bin\Debug\netcoreapp3.1\WorkingDays.runtimeconfig.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\bin\Debug\netcoreapp3.1\WorkingDays.runtimeconfig.dev.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\bin\Debug\netcoreapp3.1\WorkingDays.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\bin\Debug\netcoreapp3.1\WorkingDays.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.AssemblyInfoInputs.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.AssemblyInfo.cs
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork1\HomeWork1\WorkingDays\obj\Debug\netcoreapp3.1\WorkingDays.genruntimeconfig.cache

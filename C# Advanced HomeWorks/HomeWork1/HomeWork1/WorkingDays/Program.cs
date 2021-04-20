@@ -4,24 +4,15 @@ namespace WorkingDays
 {
     class Program
     {
-        static void Main(string[] args)
+        static void GetDate(int year, int month, int day)
         {
             DateTime customDate = new DateTime(1999, 1, 1);
             DateTime currentDate = DateTime.Today;
-            bool flag = true;
-            while (flag)
+
+            if (day > 0 || day < 31)
             {
-                try
+                if (month > 1 || month < 12)
                 {
-                    int year, month, day;
-
-                    Console.WriteLine("Enter Day");
-                    day = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Enter Month");
-                    month = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Enter Year");
-                    year = Convert.ToInt32(Console.ReadLine());
-
                     DateTime date = new DateTime(year, month, day);
                     if (date <= currentDate && date >= customDate)
                     {
@@ -37,20 +28,54 @@ namespace WorkingDays
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("Working day");
                         }
                     }
                     else
                     {
-                        throw new Exception("Invalid year");
+                        throw new Exception("You must enter a year between 1999 and 2021");
                     }
-                    Console.ResetColor();
+                }
+                else
+                {
+                    throw new Exception("Invalid month");
+                }
+            }
+            else
+            {
+                throw new Exception("Invalid day");
+            }
+            Console.ResetColor();
+        }
+        static void Main(string[] args)
+        {
+            bool flag = true;
+            while (flag)
+            {
+                try
+                {
+                    int year, month, day;
+                    Console.WriteLine("Enter day as number(1 - 31)");
+                    bool success = int.TryParse(Console.ReadLine(), out day);
+                    Console.WriteLine("Enter month as number(1-12)");
+                    bool success1 = int.TryParse(Console.ReadLine(), out month);
+                    Console.WriteLine("Enter year (1991-2021)");
+                    bool success2 = int.TryParse(Console.ReadLine(), out year);
+                    if (success && success1 && success2)
+                    {
+                        GetDate(year, month, day);
+                    }
+                    else
+                    {
+                        throw new Exception("Cant parsed input");
+                    }
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
                 }
-                Console.WriteLine("Do you want to check other year? yes/no");
+                Console.WriteLine("Do you want to check other date? yes/no");
                 string answer = Console.ReadLine();
                 if (answer == "yes")
                 {
