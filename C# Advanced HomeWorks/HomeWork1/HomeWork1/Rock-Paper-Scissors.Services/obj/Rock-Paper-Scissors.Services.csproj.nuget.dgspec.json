@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj": {}
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj": {}
   },
   "projects": {
-    "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj",
         "projectName": "Rock-Paper-Scissors.Domain",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj",
         "projectName": "Rock-Paper-Scissors.Services",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\Rock-Paper-Scissors.Services.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj": {
-                "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj"
+              "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork1\\HomeWork1\\Rock-Paper-Scissors.Domain\\Rock-Paper-Scissors.Domain.csproj"
               }
             }
           }
