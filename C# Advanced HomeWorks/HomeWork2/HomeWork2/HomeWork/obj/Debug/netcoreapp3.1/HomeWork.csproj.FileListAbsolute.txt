@@ -1,0 +1,16 @@
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\HomeWork.exe
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\HomeWork.deps.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\HomeWork.runtimeconfig.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\HomeWork.runtimeconfig.dev.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\HomeWork.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\HomeWork.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.csproj.CopyComplete
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork2\HomeWork2\HomeWork\obj\Debug\netcoreapp3.1\HomeWork.genruntimeconfig.cache
