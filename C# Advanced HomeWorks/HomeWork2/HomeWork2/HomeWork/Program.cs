@@ -10,8 +10,8 @@ namespace HomeWork
         {
             Dog dog = new Dog ("Roki", 5, "red", "dog");
             Dog dog2 = new Dog ("Hack", 3, "yellow", "dog");
-            Cat cat = new Cat ("Luna", 2, "green", "cat");
-            Cat cat2 = new Cat ("Lina", 4, "blue", "cat");
+            Cat cat = new Cat ("Luna", 2, "green", "small");
+            Cat cat2 = new Cat ("Lina", 4, "blue", "medium");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("dog1");
