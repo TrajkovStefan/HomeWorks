@@ -1,0 +1,9 @@
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\bin\Debug\netcoreapp3.1\Task1.Domain.deps.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\bin\Debug\netcoreapp3.1\Task1.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\bin\Debug\netcoreapp3.1\Task1.Domain.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\obj\Debug\netcoreapp3.1\Task1.Domain.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\obj\Debug\netcoreapp3.1\Task1.Domain.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\obj\Debug\netcoreapp3.1\Task1.Domain.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\obj\Debug\netcoreapp3.1\Task1.Domain.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\obj\Debug\netcoreapp3.1\Task1.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task1.Domain\obj\Debug\netcoreapp3.1\Task1.Domain.pdb
