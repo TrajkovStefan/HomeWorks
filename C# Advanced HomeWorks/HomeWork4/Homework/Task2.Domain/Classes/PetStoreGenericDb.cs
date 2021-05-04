@@ -17,7 +17,7 @@ namespace Task2.Domain.Classes
         {
             foreach(T pet in Pets)
             {
-                Console.WriteLine(pet);
+                pet.PrintInfo();
             }
         }
 
