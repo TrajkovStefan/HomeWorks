@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.App\\Task1.App.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.App\\Task1.App.csproj",
       "projectName": "Task1.App",
-      "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.App\\Task1.App.csproj",
+      "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.App\\Task1.App.csproj",
       "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-      "outputPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.App\\obj\\",
+      "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj": {
-              "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj"
+            "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj": {
+              "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj"
             }
           }
         }

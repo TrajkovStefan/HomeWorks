@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj": {}
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj": {
+    "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj",
         "projectName": "Task1.Domain",
-        "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj",
+        "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\Task1.Domain.csproj",
         "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-        "outputPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork4\\Homework\\Task1.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",

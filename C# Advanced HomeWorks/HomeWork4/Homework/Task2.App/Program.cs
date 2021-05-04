@@ -17,27 +17,28 @@ namespace Task2.App
             Fish fish1 = new Fish("blue", "small", "Nemo", "fish", 1);
             Fish fish2 = new Fish("black", "large", "Oscar", "fish", 6);
 
-            PetStoreGenericDb<Pet>.Pets.Add(dog1);
-            PetStoreGenericDb<Pet>.Pets.Add(dog2);
-            PetStoreGenericDb<Pet>.Pets.Add(cat1);
-            PetStoreGenericDb<Pet>.Pets.Add(cat2);
-            PetStoreGenericDb<Pet>.Pets.Add(fish1);
-            PetStoreGenericDb<Pet>.Pets.Add(fish2);
+            PetStoreGenericDb<Dog>.Pets.Add(dog1);
+            PetStoreGenericDb<Dog>.Pets.Add(dog2);
+            PetStoreGenericDb<Cat>.Pets.Add(cat1);
+            PetStoreGenericDb<Cat>.Pets.Add(cat2);
+            PetStoreGenericDb<Fish>.Pets.Add(fish1);
+            PetStoreGenericDb<Fish>.Pets.Add(fish2);
 
-            List<Pet> listOfPets = PetStoreGenericDb<Pet>.Pets;
-            listOfPets[0].PrintInfo();
-            listOfPets[1].PrintInfo();
-            listOfPets[2].PrintInfo();
-            listOfPets[3].PrintInfo();
-            listOfPets[4].PrintInfo();
-            listOfPets[5].PrintInfo();
+            Console.WriteLine("Printing all PETS before buying");
+            PetStoreGenericDb<Dog>.PrintsPets();
+            PetStoreGenericDb<Cat>.PrintsPets();
+            PetStoreGenericDb<Fish>.PrintsPets();
 
             //buying pet == remove from list
-            PetStoreGenericDb<Pet>.BuyPet(dog1);
-            PetStoreGenericDb<Pet>.BuyPet(cat1);
+            PetStoreGenericDb<Dog>.BuyPet(dog1);
+            PetStoreGenericDb<Cat>.BuyPet(cat1);
+            PetStoreGenericDb<Fish>.BuyPet(fish1);
 
             Console.WriteLine("Printing all PETS after buying");
-            PetStoreGenericDb<Pet>.PrintsPets();
+            PetStoreGenericDb<Dog>.PrintsPets();
+            PetStoreGenericDb<Cat>.PrintsPets();
+            PetStoreGenericDb<Fish>.PrintsPets();
+
 
 
             Console.ReadLine();
