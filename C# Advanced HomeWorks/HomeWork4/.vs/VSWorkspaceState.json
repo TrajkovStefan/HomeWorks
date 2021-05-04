@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Homework"
+    "\\Homework",
+    "\\Homework\\Task2.App"
   ],
-  "SelectedNode": "\\Homework\\Homework.sln",
+  "SelectedNode": "\\Homework\\Task2.App\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

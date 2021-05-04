@@ -21,17 +21,17 @@ namespace Task2.Domain.Classes
             }
         }
 
-        public static void BuyPet(T pet)
+        public static void BuyPet(string name)
         {
-            T existingPet = Pets.FirstOrDefault(x => x.Name == pet.Name);
-            if(existingPet == null)
+            T existingPet = Pets.FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
+            if (existingPet == null)
             {
                 Console.WriteLine("There is no such pet by that name");
                 return;
             }
-            Pets.Remove(pet);
+            Pets.Remove(existingPet);
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"The purchase was successfully completed for {pet.Name}");
+            Console.WriteLine($"The purchase was successfully completed for {existingPet.Name}");
             Console.ResetColor();
         }
     }

@@ -14,3 +14,19 @@ D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug
 D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.dll
 D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.pdb
 D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.genruntimeconfig.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.App.exe
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.App.deps.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.App.runtimeconfig.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.App.runtimeconfig.dev.json
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.App.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.App.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.Domain.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\bin\Debug\netcoreapp3.1\Task2.Domain.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.csprojAssemblyReference.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.AssemblyInfoInputs.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.AssemblyInfo.cs
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.csproj.CopyComplete
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.dll
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.pdb
+C:\Users\Stefan Trajkov\Documents\GitHub\HomeWorks\C# Advanced HomeWorks\HomeWork4\Homework\Task2.App\obj\Debug\netcoreapp3.1\Task2.App.genruntimeconfig.cache

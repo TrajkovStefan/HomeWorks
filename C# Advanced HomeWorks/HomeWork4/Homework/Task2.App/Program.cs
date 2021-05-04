@@ -30,9 +30,9 @@ namespace Task2.App
             PetStoreGenericDb<Fish>.PrintsPets();
 
             //buying pet == remove from list
-            PetStoreGenericDb<Dog>.BuyPet(dog1);
-            PetStoreGenericDb<Cat>.BuyPet(cat1);
-            PetStoreGenericDb<Fish>.BuyPet(fish1);
+            PetStoreGenericDb<Dog>.BuyPet("roki");
+            PetStoreGenericDb<Cat>.BuyPet("kity");
+            PetStoreGenericDb<Fish>.BuyPet("nemo");
 
             Console.WriteLine("Printing all PETS after buying");
             PetStoreGenericDb<Dog>.PrintsPets();
