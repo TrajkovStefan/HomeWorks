@@ -1,0 +1,9 @@
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\bin\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.deps.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\bin\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\bin\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\obj\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\obj\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\obj\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\obj\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\obj\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork5\SEDC.HomeWork.TimeTrack.Domain\SEDC.HomeWork.TimeTracking.Domain\obj\Debug\netcoreapp3.1\SEDC.HomeWork.TimeTracking.Domain.pdb

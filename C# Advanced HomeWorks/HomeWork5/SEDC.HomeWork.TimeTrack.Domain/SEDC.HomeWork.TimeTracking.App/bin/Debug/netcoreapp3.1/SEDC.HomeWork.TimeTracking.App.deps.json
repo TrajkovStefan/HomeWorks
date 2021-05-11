@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SEDC.HomeWork.TimeTracking.App/1.0.0": {
+        "dependencies": {
+          "SEDC.HomeWork.TimeTracking.Services": "1.0.0"
+        },
+        "runtime": {
+          "SEDC.HomeWork.TimeTracking.App.dll": {}
+        }
+      },
+      "SEDC.HomeWork.TimeTracking.Domain/1.0.0": {
+        "runtime": {
+          "SEDC.HomeWork.TimeTracking.Domain.dll": {}
+        }
+      },
+      "SEDC.HomeWork.TimeTracking.Services/1.0.0": {
+        "dependencies": {
+          "SEDC.HomeWork.TimeTracking.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SEDC.HomeWork.TimeTracking.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.HomeWork.TimeTracking.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.HomeWork.TimeTracking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.HomeWork.TimeTracking.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
