@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack.Domain\\SEDC.HomeWork.TimeTracking.Services\\SEDC.HomeWork.TimeTracking.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\SEDC.HomeWork.TimeTracking.Services.csproj",
       "projectName": "SEDC.HomeWork.TimeTracking.Services",
-      "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack.Domain\\SEDC.HomeWork.TimeTracking.Services\\SEDC.HomeWork.TimeTracking.Services.csproj",
+      "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\SEDC.HomeWork.TimeTracking.Services.csproj",
       "packagesPath": "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\",
-      "outputPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack.Domain\\SEDC.HomeWork.TimeTracking.Services\\obj\\",
+      "outputPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stefan Trajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack.Domain\\SEDC.HomeWork.TimeTracking.Domain\\SEDC.HomeWork.TimeTracking.Domain.csproj": {
-              "projectPath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack.Domain\\SEDC.HomeWork.TimeTracking.Domain\\SEDC.HomeWork.TimeTracking.Domain.csproj"
+            "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Domain\\SEDC.HomeWork.TimeTracking.Domain.csproj": {
+              "projectPath": "C:\\Users\\Stefan Trajkov\\Documents\\GitHub\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Domain\\SEDC.HomeWork.TimeTracking.Domain.csproj"
             }
           }
         }

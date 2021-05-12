@@ -19,42 +19,77 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
             _dataBase = new DataBase<T>();
         }
 
-        string username;
-        string password;
-        string newPassword;
         int userId;
-        public void ChangeFirstNameAndLastName(int userId, string firstName, string lastName)
+        public void ChangeFirstNameAndLastName(int userId)
         {
+            Console.Clear();
+            Console.WriteLine("Enter your new first name");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("Enter your new last name");
+            string lastName = Console.ReadLine();
+
             T userDb = _dataBase.GetById(userId);
             if (userDb.FirstName == firstName && userDb.LastName == lastName)
             {
-                throw new Exception("You entered the same first and last name");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("You entered the current first and last name \nPress any key to try again");
+                Console.ReadKey();
+                Console.ResetColor();
+                ChangeFirstNameAndLastName(userId);
             }
             if (!ValidationHelper.ValidateFirstNameAndLastName(firstName, lastName))
             {
-                throw new Exception("Invalid username or lastname");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Wrong input \nPress any key to try again");
+                Console.ReadKey();
+                Console.ResetColor();
+                ChangeFirstNameAndLastName(userId);
             }
             else
             {
                 userDb.FirstName = firstName;
                 userDb.LastName = lastName;
                 _dataBase.Update(userDb);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Successfully changed first and last name\nPress any key to back to option menu");
+                Console.ResetColor();
+                Console.ReadKey();
+                Console.Clear();
+                UserOptions();
             }
         }
 
-        public void ChangePassword(int userId, string oldPassword, string newPassword)
+        public void ChangePassword(int userId)
         {
+            Console.Clear();
+            Console.WriteLine("Enter your new password");
+            string newPassword = Console.ReadLine();
+
             T userDb = _dataBase.GetById(userId);
-            if (userDb.Password != oldPassword)
+            if (userDb.Password == newPassword)
             {
-                throw new Exception("Old passwords do not match");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("You entered the current password \nPress any key to try again");
+                Console.ReadKey();
+                Console.ResetColor();
+                ChangePassword(userId);
             }
             if (!ValidationHelper.ValidatePassword(newPassword))
             {
-                throw new Exception("Invalid password");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid Password \nPress any key to try again");
+                Console.ReadKey();
+                Console.ResetColor();
+                ChangePassword(userId);
             }
             userDb.Password = newPassword;
             _dataBase.Update(userDb);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Successfully changed password\nPress any key to back to option menu");
+            Console.ResetColor();
+            Console.ReadKey();
+            Console.Clear();
+            UserOptions();
         }
 
         public void AddUser(T user)
@@ -87,9 +122,9 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
             {
 
                 Console.WriteLine("Enter username");
-                username = Console.ReadLine();
+                string username = Console.ReadLine();
                 Console.WriteLine("Enter password");
-                password = Console.ReadLine();
+                string password = Console.ReadLine();
 
                 bool findUser = userDb.Any(x => x.Username == username && x.Password == password);
                 if (findUser == false)
@@ -144,35 +179,11 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                     }
                     if (option == 1)
                     {
-
-                        Console.Clear();
-                        Console.WriteLine("Enter your new password");
-                        newPassword = Console.ReadLine();
-                        ChangePassword(userId, password, newPassword);
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Successfully changed password\nPress any key to back to option menu");
-                        Console.ResetColor();
-                        Console.ReadKey();
-                        Console.Clear();
-                        UserOptions();
-
+                        ChangePassword(userId);
                     }
                     if (option == 2)
                     {
-
-                        Console.Clear();
-                        Console.WriteLine("Enter your new first name");
-                        string firstname = Console.ReadLine();
-                        Console.WriteLine("Enter your new last name");
-                        string lastname = Console.ReadLine();
-                        ChangeFirstNameAndLastName(userId, firstname, lastname);
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Successfully changed first and last name\nPress any key to back to option menu");
-                        Console.ResetColor();
-                        Console.ReadKey();
-                        Console.Clear();
-                        UserOptions();
-
+                        ChangeFirstNameAndLastName(userId);
                     }
                     if (option == 3)
                     {
@@ -187,313 +198,11 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                     }
                     if (option == 4)
                     {
-                        Console.Clear();
                         ShowActivities();
-                        bool suc = int.TryParse(Console.ReadLine(), out int type);
-                        if (suc)
-                        {
-                            if (type < 1 || type > 3)
-                            {
-                                Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
-                                Console.ResetColor();
-                                Thread.Sleep(4000);
-                                Console.Clear();
-                                UserOptions();
-                            }
-                            int count = 1;
-                            if (type == 1)
-                            {
-                                Console.WriteLine("Choose type from reading list");
-                                foreach (string t in Enum.GetNames(typeof(TrackType.ReadingType)))
-                                {
-                                    Console.WriteLine("{0}) {1}", count, t);
-                                    count++;
-                                }
-                                bool finish = int.TryParse(Console.ReadLine(), out int choose);
-                                if (finish)
-                                {
-                                    if (choose < 1 || choose > 3)
-                                    {
-                                        Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
-                                        Console.ResetColor();
-                                        Thread.Sleep(4000);
-                                        Console.Clear();
-                                        UserOptions();
-                                    }
-                                    if (choose == 1)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.ReadingType = TrackType.ReadingType.Belles_Lettres;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You reading {TrackType.ReadingType.Belles_Lettres} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                    if (choose == 2)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.ReadingType = TrackType.ReadingType.Fiction;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You reading {TrackType.ReadingType.Fiction} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                    if (choose == 3)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.ReadingType = TrackType.ReadingType.Professional_Literature;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You reading {TrackType.ReadingType.Professional_Literature} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                }
-                                else
-                                {
-                                    Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
-                                    Console.ResetColor();
-                                    Thread.Sleep(4000);
-                                    Console.Clear();
-                                    UserOptions();
-                                }
-                            }
-                            if (type == 2)
-                            {
-                                Console.WriteLine("Choose type from exercising list");
-                                foreach (string t in Enum.GetNames(typeof(TrackType.ExercisingType)))
-                                {
-                                    Console.WriteLine("{0}) {1}", count, t);
-                                    count++;
-                                }
-                                bool finish = int.TryParse(Console.ReadLine(), out int choose);
-                                if (finish)
-                                {
-                                    if (choose < 1 || choose > 3)
-                                    {
-                                        Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
-                                        Console.ResetColor();
-                                        Thread.Sleep(4000);
-                                        Console.Clear();
-                                        UserOptions();
-                                    }
-                                    if (choose == 1)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.ExercisingType = TrackType.ExercisingType.General;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You practice {TrackType.ExercisingType.General} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                    if (choose == 2)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.ExercisingType = TrackType.ExercisingType.Running;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You practice {TrackType.ExercisingType.Running} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                    if (choose == 3)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.ExercisingType = TrackType.ExercisingType.Sport;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You practice {TrackType.ExercisingType.Sport} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                }
-                            }
-                            if (type == 3)
-                            {
-                                Console.WriteLine("Choose type from working list");
-                                foreach (string t in Enum.GetNames(typeof(TrackType.WorkingType)))
-                                {
-                                    Console.WriteLine("{0}) {1}", count, t);
-                                    count++;
-                                }
-                                bool finish = int.TryParse(Console.ReadLine(), out int choose);
-                                if (finish)
-                                {
-                                    if (choose < 1 || choose > 3)
-                                    {
-                                        Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
-                                        Console.ResetColor();
-                                        Thread.Sleep(4000);
-                                        Console.Clear();
-                                        UserOptions();
-                                    }
-                                    if (choose == 1)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.WorkingType = TrackType.WorkingType.Office;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You working at {TrackType.WorkingType.Office} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                    if (choose == 2)
-                                    {
-                                        T user = _dataBase.GetById(userId);
-                                        user.WorkingType = TrackType.WorkingType.Home;
-                                        Stopwatch stopwatch = new Stopwatch();
-                                        stopwatch.Start();
-                                        Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
-                                        string enter = Console.ReadLine();
-                                        if (enter == "")
-                                        {
-                                            stopwatch.Stop();
-                                            TimeSpan stopwatchElapsed = stopwatch.Elapsed;
-                                            Console.WriteLine($"You working from {TrackType.WorkingType.Home} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
-                                            user.Time = Convert.ToInt32(stopwatchElapsed.TotalSeconds);
-                                            Console.WriteLine("Press any key to back to option menu");
-                                            Console.ReadKey();
-                                            Console.Clear();
-                                            UserOptions();
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        else
-                        {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again \nProcessing...");
-                            Console.ResetColor();
-                            Thread.Sleep(4000);
-                            Console.Clear();
-                            UserOptions();
-                        }
                     }
                     if (option == 5)
                     {
-                        T user = _dataBase.GetById(userId);
-                        if (user.Status == UserAccStatus.Activate)
-                        {
-                            Console.Clear();
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine("Status is activated");
-                            Console.ResetColor();
-                            Console.WriteLine("Do you want to deactivate account (yes or no)");
-                            string answer = Console.ReadLine();
-                            if (answer == "yes")
-                            {
-                                DeactivateAcc(userId);
-                            }
-                            else if (answer == "no")
-                            {
-                                Console.Clear();
-                                Console.WriteLine("Press any key to back to option menu");
-                                Console.ReadKey();
-                                Console.Clear();
-                                UserOptions();
-                            }
-
-                            if (user.Status == UserAccStatus.Deactivate)
-                            {
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                Console.WriteLine("Status is deactivate");
-                                Console.ResetColor();
-                                Console.WriteLine("Do you want to activate account (yes or no)");
-                                string answ = Console.ReadLine();
-                                if (answ == "yes")
-                                {
-                                    ActivateAcc(userId);
-                                }
-                                if (answ == "no")
-                                {
-                                    Console.Clear();
-                                    Console.WriteLine("Press any key to back to option menu");
-                                    Console.ReadKey();
-                                    Console.Clear();
-                                    UserOptions();
-                                }
-                                break;
-                            }
-                        }
+                        CheckStatus();
                     }
                     if (option == 6)
                     {
@@ -520,6 +229,264 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
         {
             Console.Clear();
             Console.WriteLine("1)Reading \n2)Exercising \n3)Working");
+            bool suc = int.TryParse(Console.ReadLine(), out int type);
+            if (suc)
+            {
+                if (type < 1 || type > 3)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again \nProcessing...");
+                    Console.ResetColor();
+                    Thread.Sleep(4000);
+                    Console.Clear();
+                    ShowActivities();
+                }
+                int count = 1;
+                if (type == 1)
+                {
+                    Console.WriteLine("Choose type from reading list");
+                    foreach (string t in Enum.GetNames(typeof(TrackType.ReadingType)))
+                    {
+                        Console.WriteLine("{0}) {1}", count, t);
+                        count++;
+                    }
+                    bool finish = int.TryParse(Console.ReadLine(), out int choose);
+                    if (finish)
+                    {
+                        if (choose < 1 || choose > 3)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
+                            Console.ResetColor();
+                            Thread.Sleep(4000);
+                            Console.Clear();
+                            ShowActivities();
+                        }
+                        if (choose == 1)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.ReadingType = TrackType.ReadingType.Belles_Lettres;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You reading {TrackType.ReadingType.Belles_Lettres} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                        if (choose == 2)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.ReadingType = TrackType.ReadingType.Fiction;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You reading {TrackType.ReadingType.Fiction} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                        if (choose == 3)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.ReadingType = TrackType.ReadingType.Professional_Literature;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You reading {TrackType.ReadingType.Professional_Literature} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
+                        Console.ResetColor();
+                        Thread.Sleep(4000);
+                        Console.Clear();
+                        ShowActivities();
+                    }
+                }
+                if (type == 2)
+                {
+                    Console.WriteLine("Choose type from exercising list");
+                    foreach (string t in Enum.GetNames(typeof(TrackType.ExercisingType)))
+                    {
+                        Console.WriteLine("{0}) {1}", count, t);
+                        count++;
+                    }
+                    bool finish = int.TryParse(Console.ReadLine(), out int choose);
+                    if (finish)
+                    {
+                        if (choose < 1 || choose > 3)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
+                            Console.ResetColor();
+                            Thread.Sleep(4000);
+                            Console.Clear();
+                            ShowActivities();
+                        }
+                        if (choose == 1)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.ExercisingType = TrackType.ExercisingType.General;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You practice {TrackType.ExercisingType.General} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                        if (choose == 2)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.ExercisingType = TrackType.ExercisingType.Running;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You practice {TrackType.ExercisingType.Running} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                        if (choose == 3)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.ExercisingType = TrackType.ExercisingType.Sport;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You practice {TrackType.ExercisingType.Sport} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                    }
+                }
+                if (type == 3)
+                {
+                    Console.WriteLine("Choose type from working list");
+                    foreach (string t in Enum.GetNames(typeof(TrackType.WorkingType)))
+                    {
+                        Console.WriteLine("{0}) {1}", count, t);
+                        count++;
+                    }
+                    bool finish = int.TryParse(Console.ReadLine(), out int choose);
+                    if (finish)
+                    {
+                        if (choose < 1 || choose > 3)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again FROM THE BEGINNING \nProcessing...");
+                            Console.ResetColor();
+                            Thread.Sleep(4000);
+                            Console.Clear();
+                            ShowActivities();
+                        }
+                        if (choose == 1)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.WorkingType = TrackType.WorkingType.Office;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You working at {TrackType.WorkingType.Office} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeWorking += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                        if (choose == 2)
+                        {
+                            T user = _dataBase.GetById(userId);
+                            user.WorkingType = TrackType.WorkingType.Home;
+                            Stopwatch stopwatch = new Stopwatch();
+                            stopwatch.Start();
+                            Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
+                            string enter = Console.ReadLine();
+                            if (enter == "")
+                            {
+                                stopwatch.Stop();
+                                TimeSpan stopwatchElapsed = stopwatch.Elapsed;
+                                Console.WriteLine($"You working from {TrackType.WorkingType.Home} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.TimeWorking += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
+                                Console.WriteLine("Press any key to back to option menu");
+                                Console.ReadKey();
+                                Console.Clear();
+                                UserOptions();
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Wrong input.. Wait a few seconds for the process to complete to try again \nProcessing...");
+                Console.ResetColor();
+                Thread.Sleep(1000);
+                Console.Clear();
+                ShowActivities();
+            }
         }
 
         public void DeactivateAcc(int userId)
@@ -575,7 +542,74 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
             Console.WriteLine("1)Change Password \n2)Change First and Last name \n3)LogOut \n4)Activities for tracking" +
                                       "\n5)Check Status \n6)User Statistics ");
         }
+
+        public void CheckStatus()
+        {
+            T user = _dataBase.GetById(userId);
+            if (user.Status == UserAccStatus.Activate)
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Status is activated");
+                Console.ResetColor();
+                Console.WriteLine("Do you want to deactivate account (yes or no)");
+                string answer = Console.ReadLine();
+                if (answer == "yes")
+                {
+                    DeactivateAcc(userId);
+                    return;
+                }
+                if (answer == "no")
+                {
+                    Console.Clear();
+                    Console.WriteLine("Press any key to back to option menu");
+                    Console.ReadKey();
+                    Console.Clear();
+                    UserOptions();
+                    return;
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Wrong Input... Press any key to try again");
+                    Console.ResetColor();
+                    Console.ReadKey();
+                    CheckStatus();
+                }
+            }
+            else
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Status is deactivate");
+                Console.ResetColor();
+                Console.WriteLine("Do you want to activate account (yes or no)");
+                string answ = Console.ReadLine();
+                if (answ == "yes")
+                {
+                    ActivateAcc(userId);
+                    return;
+                }
+                if (answ == "no")
+                {
+                    Console.Clear();
+                    Console.WriteLine("Press any key to back to option menu");
+                    Console.ReadKey();
+                    Console.Clear();
+                    UserOptions();
+                    return;
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Wrong Input... Press any key to try again");
+                    Console.ResetColor();
+                    Console.ReadKey();
+                    CheckStatus();
+                }
+            }
+        }
     }
 }
-
-
