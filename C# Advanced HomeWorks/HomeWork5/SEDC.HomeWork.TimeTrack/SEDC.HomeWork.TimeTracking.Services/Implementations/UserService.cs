@@ -82,14 +82,17 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                 Console.ResetColor();
                 ChangePassword(userId);
             }
-            userDb.Password = newPassword;
-            _dataBase.Update(userDb);
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Successfully changed password\nPress any key to back to option menu");
-            Console.ResetColor();
-            Console.ReadKey();
-            Console.Clear();
-            UserOptions();
+            else
+            {
+                userDb.Password = newPassword;
+                _dataBase.Update(userDb);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Successfully changed password\nPress any key to back to option menu");
+                Console.ResetColor();
+                Console.ReadKey();
+                Console.Clear();
+                UserOptions();
+            }  
         }
 
         public void AddUser(T user)
