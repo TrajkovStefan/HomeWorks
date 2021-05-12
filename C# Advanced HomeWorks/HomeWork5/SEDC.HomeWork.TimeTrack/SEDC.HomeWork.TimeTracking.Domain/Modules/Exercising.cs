@@ -1,30 +1,20 @@
 ﻿using SEDC.HomeWork.TimeTracking.Domain.Enums;
-using SEDC.HomeWork.TimeTracking.Domain.Interfaces;
 using System;
-
 
 namespace SEDC.HomeWork.TimeTracking.Domain.Modules
 {
-    public class Exercising : Track, IExercising
+    public class Exercising : Track
     {
-        public void AddTypes()
+        public TrackType.ExercisingType Type { get; set; }
+        public Exercising(TrackType.ExercisingType type)
         {
-            ExercisingType.Add(TrackType.ExercisingType.General);
-            ExercisingType.Add(TrackType.ExercisingType.Running);
-            ExercisingType.Add(TrackType.ExercisingType.Sport);
+            Activity = TrackType.Activities.Exercising;
+            Type = type;
         }
 
         public override void GetInfo()
         {
-            Console.WriteLine($"{Title} {Description}"); 
-        }
-
-        public void PrintTypes()
-        {
-            foreach(TrackType.ExercisingType type in ExercisingType)
-            {
-                Console.WriteLine(type);
-            }
+            Console.WriteLine($"Activity: {Activity} Type: {Type} Time: {Time} \n====");
         }
     }
 }

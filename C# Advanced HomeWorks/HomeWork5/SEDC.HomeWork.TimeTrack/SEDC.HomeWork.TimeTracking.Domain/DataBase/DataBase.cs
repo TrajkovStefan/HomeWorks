@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace SEDC.HomeWork.TimeTracking.Domain.DataBase
 {
@@ -23,7 +22,7 @@ namespace SEDC.HomeWork.TimeTracking.Domain.DataBase
         public T GetById(int id)
         {
             T dbEntity = _tableList.FirstOrDefault(x => x.Id == id);
-            if(dbEntity == null)
+            if (dbEntity == null)
             {
                 throw new Exception($"Entity with id {id} not found");
             }

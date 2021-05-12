@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace SEDC.HomeWork.TimeTracking.Services.Helpers
 {
@@ -44,11 +42,11 @@ namespace SEDC.HomeWork.TimeTracking.Services.Helpers
             {
                 return false;
             }
-            foreach(char ch in firstName)
+            foreach (char ch in firstName)
             {
-                foreach(char c in lastName)
+                foreach (char c in lastName)
                 {
-                    if(char.IsNumber(ch) || char.IsNumber(c))
+                    if (char.IsNumber(ch) || char.IsNumber(c))
                     {
                         return false;
                     }
@@ -59,7 +57,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Helpers
 
         public static bool ValidateAge(int age)
         {
-            if(age < 18 || age > 120)
+            if (age < 18 || age > 120)
             {
                 return false;
             }

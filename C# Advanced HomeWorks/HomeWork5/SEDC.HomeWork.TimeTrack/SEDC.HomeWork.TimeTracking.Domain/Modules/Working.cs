@@ -1,28 +1,21 @@
 ﻿using SEDC.HomeWork.TimeTracking.Domain.Enums;
-using SEDC.HomeWork.TimeTracking.Domain.Interfaces;
 using System;
+
 
 namespace SEDC.HomeWork.TimeTracking.Domain.Modules
 {
-    public class Working : Track, IWorking
+    public class Working : Track
     {
-        public void AddTypes()
+        public TrackType.WorkingType Type { get; set; }
+        public Working(TrackType.WorkingType type)
         {
-            WorkingType.Add(TrackType.WorkingType.Home);
-            WorkingType.Add(TrackType.WorkingType.Office);
+            Activity = TrackType.Activities.Working;
+            Type = type;
         }
 
         public override void GetInfo()
         {
-            Console.WriteLine($"{Title} - {Description}");
-        }
-
-        public void PrintTypes()
-        {
-            foreach(TrackType.WorkingType type in WorkingType)
-            {
-                Console.WriteLine(type);
-            }
+            Console.WriteLine($"Activity: {Activity} Type: {Type} Time: {Time} \n====");
         }
     }
 }

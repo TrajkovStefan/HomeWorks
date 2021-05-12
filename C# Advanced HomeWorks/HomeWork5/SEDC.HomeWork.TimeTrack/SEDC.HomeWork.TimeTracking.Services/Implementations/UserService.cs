@@ -72,6 +72,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                 Console.WriteLine("You entered the current password \nPress any key to try again");
                 Console.ReadKey();
                 Console.ResetColor();
+                Console.Clear();
                 ChangePassword(userId);
             }
             if (!ValidationHelper.ValidatePassword(newPassword))
@@ -92,7 +93,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                 Console.ReadKey();
                 Console.Clear();
                 UserOptions();
-            }  
+            }
         }
 
         public void AddUser(T user)
@@ -268,7 +269,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 1)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.ReadingType = TrackType.ReadingType.Belles_Lettres;
+                            Reading predifined = DataBase.DataBase._readingTrack.FindActivityById(1);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -278,6 +279,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You reading {TrackType.ReadingType.Belles_Lettres} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -288,7 +290,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 2)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.ReadingType = TrackType.ReadingType.Fiction;
+                            Reading predifined = DataBase.DataBase._readingTrack.FindActivityById(2);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -298,6 +300,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You reading {TrackType.ReadingType.Fiction} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -308,7 +311,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 3)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.ReadingType = TrackType.ReadingType.Professional_Literature;
+                            Reading predifined = DataBase.DataBase._readingTrack.FindActivityById(3);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -318,6 +321,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You reading {TrackType.ReadingType.Professional_Literature} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -359,7 +363,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 1)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.ExercisingType = TrackType.ExercisingType.General;
+                            Exercising predifined = DataBase.DataBase._exercisingTrack.FindActivityById(1);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -369,6 +373,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You practice {TrackType.ExercisingType.General} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -379,7 +384,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 2)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.ExercisingType = TrackType.ExercisingType.Running;
+                            Exercising predifined = DataBase.DataBase._exercisingTrack.FindActivityById(2);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -389,6 +394,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You practice {TrackType.ExercisingType.Running} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -399,7 +405,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 3)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.ExercisingType = TrackType.ExercisingType.Sport;
+                            Exercising predifined = DataBase.DataBase._exercisingTrack.FindActivityById(3);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -409,6 +415,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You practice {TrackType.ExercisingType.Sport} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -441,7 +448,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 1)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.WorkingType = TrackType.WorkingType.Office;
+                            Working predifined = DataBase.DataBase._workingTrack.FindActivityById(1);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -451,6 +458,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You working at {TrackType.WorkingType.Office} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeWorking += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -461,7 +469,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                         if (choose == 2)
                         {
                             T user = _dataBase.GetById(userId);
-                            user.WorkingType = TrackType.WorkingType.Home;
+                            Working predifined = DataBase.DataBase._workingTrack.FindActivityById(2);
                             Stopwatch stopwatch = new Stopwatch();
                             stopwatch.Start();
                             Console.WriteLine("Tracking is started... \nWhen you want to stop press enter");
@@ -471,6 +479,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You working from {TrackType.WorkingType.Home} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                user.ListOfActivities.Add(predifined);
                                 user.TimeWorking += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
                                 Console.ReadKey();
@@ -616,3 +625,5 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
         }
     }
 }
+
+

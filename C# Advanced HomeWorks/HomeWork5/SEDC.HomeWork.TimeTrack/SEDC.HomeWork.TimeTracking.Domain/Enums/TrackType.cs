@@ -25,5 +25,12 @@ namespace SEDC.HomeWork.TimeTracking.Domain.Enums
             Fiction,
             Professional_Literature
         }
+
+        public enum Activities
+        {
+            Reading = 1,
+            Exercising,
+            Working
+        }
     }
 }

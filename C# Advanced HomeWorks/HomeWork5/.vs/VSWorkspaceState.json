@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SEDC.HomeWork.TimeTrack"
+    "\\SEDC.HomeWork.TimeTrack",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\Implementations"
   ],
-  "SelectedNode": "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.sln",
+  "SelectedNode": "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\Helpers",
   "PreviewInSolutionExplorer": false
 }
