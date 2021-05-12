@@ -279,6 +279,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You reading {TrackType.ReadingType.Belles_Lettres} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -300,6 +301,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You reading {TrackType.ReadingType.Fiction} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -321,6 +323,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You reading {TrackType.ReadingType.Professional_Literature} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeReading += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -373,6 +376,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You practice {TrackType.ExercisingType.General} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -394,6 +398,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You practice {TrackType.ExercisingType.Running} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -415,6 +420,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You practice {TrackType.ExercisingType.Sport} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeExercising += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -458,6 +464,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You working at {TrackType.WorkingType.Office} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeWorking += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");
@@ -479,6 +486,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                                 stopwatch.Stop();
                                 TimeSpan stopwatchElapsed = stopwatch.Elapsed;
                                 Console.WriteLine($"You working from {TrackType.WorkingType.Home} {Convert.ToInt32(stopwatchElapsed.TotalSeconds)} seconds");
+                                predifined.Time = (int)Math.Round(stopwatch.Elapsed.TotalSeconds);
                                 user.ListOfActivities.Add(predifined);
                                 user.TimeWorking += Convert.ToInt32(stopwatchElapsed.TotalSeconds);
                                 Console.WriteLine("Press any key to back to option menu");

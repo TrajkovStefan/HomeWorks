@@ -15,7 +15,7 @@ namespace SEDC.HomeWork.TimeTracking.Domain.Modules
 
         public override void GetInfo()
         {
-            Console.WriteLine($"Activity: {Activity} Type: {Type} Time: {Time} \n====");
+            Console.WriteLine($"Activity: {Activity} Type: {Type} Time: {Time} seconds \n====");
         }
     }
 }

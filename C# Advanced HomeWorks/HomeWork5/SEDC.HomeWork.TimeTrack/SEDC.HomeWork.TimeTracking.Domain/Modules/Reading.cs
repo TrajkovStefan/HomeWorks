@@ -15,7 +15,7 @@ namespace SEDC.HomeWork.TimeTracking.Domain.Modules
         }
         public override void GetInfo()
         {
-            Console.WriteLine($"Activity: {Activity} Type: {ReadingType} Pages: {Pages} Time:{Time} \n====");
+            Console.WriteLine($"Activity: {Activity} Type: {ReadingType} Pages: {Pages} Time:{Time} seconds \n====");
         }
     }
 }
