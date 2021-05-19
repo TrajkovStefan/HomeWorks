@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Bonus.App", "SEDC.Bonus.App\SEDC.Bonus.App.csproj", "{AA893BF0-B4BB-41B0-B463-7FF5C7D141A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Bonus.Domain", "SEDC.Bonus.Domain\SEDC.Bonus.Domain.csproj", "{CA902F6D-1C82-48C7-9948-DE1774F915CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA893BF0-B4BB-41B0-B463-7FF5C7D141A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA893BF0-B4BB-41B0-B463-7FF5C7D141A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA893BF0-B4BB-41B0-B463-7FF5C7D141A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA893BF0-B4BB-41B0-B463-7FF5C7D141A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA902F6D-1C82-48C7-9948-DE1774F915CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA902F6D-1C82-48C7-9948-DE1774F915CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA902F6D-1C82-48C7-9948-DE1774F915CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA902F6D-1C82-48C7-9948-DE1774F915CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F71784D6-980F-4476-9F91-FF145215900A}
+	EndGlobalSection
+EndGlobal

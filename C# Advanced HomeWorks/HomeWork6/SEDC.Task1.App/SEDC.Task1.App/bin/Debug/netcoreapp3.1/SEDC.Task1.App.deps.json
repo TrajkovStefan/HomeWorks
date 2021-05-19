@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SEDC.Task1.App/1.0.0": {
+        "runtime": {
+          "SEDC.Task1.App.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.Task1.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

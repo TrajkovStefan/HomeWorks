@@ -1,0 +1,16 @@
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.App.exe
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.App.deps.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.App.runtimeconfig.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.App.runtimeconfig.dev.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.App.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.App.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.genruntimeconfig.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\bin\Debug\netcoreapp3.1\SEDC.Bonus.Domain.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.App\obj\Debug\netcoreapp3.1\SEDC.Bonus.App.csproj.CopyComplete

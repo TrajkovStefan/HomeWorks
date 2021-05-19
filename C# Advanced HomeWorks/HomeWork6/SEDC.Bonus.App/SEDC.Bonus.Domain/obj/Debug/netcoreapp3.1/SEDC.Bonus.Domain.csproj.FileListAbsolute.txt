@@ -1,0 +1,9 @@
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\bin\Debug\netcoreapp3.1\SEDC.Bonus.Domain.deps.json
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\bin\Debug\netcoreapp3.1\SEDC.Bonus.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\bin\Debug\netcoreapp3.1\SEDC.Bonus.Domain.pdb
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\obj\Debug\netcoreapp3.1\SEDC.Bonus.Domain.csprojAssemblyReference.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\obj\Debug\netcoreapp3.1\SEDC.Bonus.Domain.AssemblyInfoInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\obj\Debug\netcoreapp3.1\SEDC.Bonus.Domain.AssemblyInfo.cs
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\obj\Debug\netcoreapp3.1\SEDC.Bonus.Domain.csproj.CoreCompileInputs.cache
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\obj\Debug\netcoreapp3.1\SEDC.Bonus.Domain.dll
+D:\Seavus\HomeWorks\C# Advanced HomeWorks\HomeWork6\SEDC.Bonus.App\SEDC.Bonus.Domain\obj\Debug\netcoreapp3.1\SEDC.Bonus.Domain.pdb
