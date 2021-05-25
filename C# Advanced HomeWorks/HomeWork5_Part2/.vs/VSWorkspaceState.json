@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HomeWork5",
+    "\\HomeWork5\\SEDC.HomeWork.TimeTrack",
+    "\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.App",
+    "\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Domain",
+    "\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services",
+    "\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\Implementations"
+  ],
+  "SelectedNode": "\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\Implementations\\UIService.cs",
+  "PreviewInSolutionExplorer": false
+}
