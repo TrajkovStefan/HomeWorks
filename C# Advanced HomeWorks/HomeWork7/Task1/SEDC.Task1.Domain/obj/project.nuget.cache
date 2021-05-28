@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f4F+JvJd8ZJTzMmr8LhOk7UFS6xDTiRQEdhGJ0FsKKLlS7EQMj+Hepne3i/5AK/N7dRBCza8FDKBVjQ+8jFCMw==",
+  "success": true,
+  "projectFilePath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork7\\Task1\\SEDC.Task1.Domain\\SEDC.Task1.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
