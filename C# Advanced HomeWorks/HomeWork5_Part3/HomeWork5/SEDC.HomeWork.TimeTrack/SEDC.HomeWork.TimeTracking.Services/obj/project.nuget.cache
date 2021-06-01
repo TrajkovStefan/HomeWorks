@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AlY91R9vdVyndMbglZEdH8o3MQbCszKe4xI5a/uR56Szt5zwK2bOWQ4+AjRheKkB1D+Awj0dehmeV7R3eN+L0g==",
+  "success": true,
+  "projectFilePath": "D:\\Seavus\\HomeWorks\\C# Advanced HomeWorks\\HomeWork5\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\SEDC.HomeWork.TimeTracking.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stefan Trajkov\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

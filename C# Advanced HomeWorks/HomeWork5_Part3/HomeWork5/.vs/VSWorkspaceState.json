@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SEDC.HomeWork.TimeTrack",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.App",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Domain",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Domain\\Modules",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\DataBase",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\Implementations",
+    "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.Services\\Interfaces"
+  ],
+  "SelectedNode": "\\SEDC.HomeWork.TimeTrack\\SEDC.HomeWork.TimeTracking.sln",
+  "PreviewInSolutionExplorer": false
+}
