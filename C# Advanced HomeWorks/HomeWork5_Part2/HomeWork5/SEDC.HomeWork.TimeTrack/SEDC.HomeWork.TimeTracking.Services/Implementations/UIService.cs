@@ -97,6 +97,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                 {
                     Console.WriteLine("You must enter a password");
                 }
+                DataBase.DataBase._currentUser = DataBase.DataBase._users.LogIn(username, password);
                 if (DataBase.DataBase._currentUser == null)
                 {
                     Console.Clear();
@@ -111,7 +112,7 @@ namespace SEDC.HomeWork.TimeTracking.Services.Implementations
                 if(DataBase.DataBase._currentUser != null)
                 {
                     flag = false;
-                    DataBase.DataBase._currentUser = DataBase.DataBase._users.LogIn(username, password);
+                    
                 } 
             }
             return DataBase.DataBase._currentUser;
